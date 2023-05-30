@@ -36,8 +36,7 @@ nav {
 nav img {
     width: 6rem;
     margin-top: -.9rem;
-    margin-left: 2.5rem;
-    cursor: pointer;
+
 }
 
 .links ul {
@@ -130,7 +129,10 @@ nav img {
     
     
 }
-
+.content_3 a input{
+    background-color: transparent;
+    display: none;
+}
 .content_3 a:hover{
     background-color: transparent;
     color: black;

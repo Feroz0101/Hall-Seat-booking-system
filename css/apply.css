@@ -22,7 +22,7 @@
 /* Nav start */
 nav {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 20% 80%;
     padding-top: 1rem;
     font-size: 1.2rem;
     background-color: #fff;
@@ -34,8 +34,8 @@ nav {
 nav img {
     width: 6rem;
     margin-top: -.9rem;
-    margin-left: 2.5rem;
-    cursor: pointer;
+
+
 }
 
 .links ul {
@@ -80,6 +80,7 @@ hr{
 /* Main section start */
 
 .heading h2{
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     margin: 2rem;
 }
@@ -133,8 +134,13 @@ hr{
 }
 
 .submitBtn a:hover{
-    background-color:blue;
-    color: rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     transition: 1s;
+}
+
+.infoSection label{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 /* Main section End */
