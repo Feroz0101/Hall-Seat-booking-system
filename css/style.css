@@ -226,11 +226,5 @@ footer .part_1 , .part_2, .Part_3 {
     border-radius: 1rem;
     transition: all 1s ease-out;
 }
-.last:hover {
-    padding: .6rem 6rem;
-    color: #000000;
-    background-color: var(--hover-color);
-    letter-spacing: 1.5rem;
-    transition: 1.2s;
-}
+
 /* Footer footer End  */
