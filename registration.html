@@ -37,35 +37,41 @@
                 <h1>DIU Hall Portal</h1>
             </div>
             <div class="content_2">
-                <div class="content_2Items">
+                <form action="" onsubmit="getinformation()" id="">
+
                     <label for="" class="tx_1">Enter Your name:</label>
 
-                    <input type="txt" value="" placeholder="name">
+                    <input type="txt" value="" placeholder="name" id="username" required>
 
                     <label for="" class="tx_2">Enter Your Id:</label>
 
-                    <input type="text" value="" placeholder="Id">
+                    <input type="text" value="" placeholder="Id" id="StudentID" required>
 
                     <label for="" class="tx_3">Enter Your Email:</label>
 
-                    <input type="email" value="" placeholder="email">
+                    <input type="email" value="" placeholder="email" id="email" required>
 
                     <label for="" class="tx_4">Enter Your Department:</label>
 
-                    <input type="txt" value="" placeholder="department">
+                    <input type="txt" value="" placeholder="department" id="Department" required>
                     <label for="" class="tx_5">Enter Your Password:</label>
 
-                    <input type="password" value="" placeholder="password">
+                    <input type="password" value="" placeholder="password" id="password" required>
 
-                </div>
+                   <a href="login.html">Registration</a>
+
+
+                </form>
             </div>
-            <div class="content_3">
-                <a href="login.html"> Submit</a>
-            </div>
+
         </div>
     </div>
 
     <!-- main section start -->
+
+    <!-- Javascript start -->
+    <script src="./main.js"></script>
+    <!-- Javascript End -->
 </body>
 
 </html>

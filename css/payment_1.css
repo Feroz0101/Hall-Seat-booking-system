@@ -84,6 +84,40 @@ hr{
     text-align: center;
     margin: 2rem;
 }
+.applysec{
+    
+}
+.transection_section{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%) ;
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif; 
+    line-height: 1rem;
+}
 
+.transection_section input{
+    width: 40%;
+    font-size: 1rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 1rem;
+    color: rgb(255, 255, 255);
+    padding: .7rem;
+    display: inline-block;  
+    background-color: #424444;
+    margin: .4rem;
+    font-family: 'Actor', sans-serif;
+    transition: all 1s ease-in-out;
+}
+
+.transection_section button{
+    padding: 0.7rem 4rem;
+    margin-top: 1rem;
+    text-align: center;
+    background-color: #424444;
+    color: #fff;
+    border-radius: 1rem;
+}
 
 /* Main section End */

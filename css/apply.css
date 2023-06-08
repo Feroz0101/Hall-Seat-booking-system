@@ -85,7 +85,7 @@ hr{
     margin: 2rem;
 }
 
-.infoSection{
+form{
     margin: 0rem 10rem;
     display: grid;
     grid-template-columns: repeat(2,1fr);
